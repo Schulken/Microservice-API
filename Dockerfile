@@ -23,5 +23,5 @@ EXPOSE 8000
 
 ## Step 5:
 # Run app.py at container launch
-RUN app.py
-CMD ["python", "web.py"]
+# RUN app.py
+CMD ["python", "app.py"]
