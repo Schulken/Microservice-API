@@ -4,11 +4,11 @@ MAINTAINER Andre Schulke <andre.schulke@bertelsmann.de>
 
 ## Step 1:
 # Create a Working Directory
-WORKDIR /devops
+WORKDIR /msapi
 
 ## Step 2:
 # Copy source code to working directory
-COPY . app.py /devops/
+COPY . app.py /msapi/
 
 ## Step 3:
 # Install packages from requirements.txt
@@ -19,7 +19,8 @@ RUN pip install --upgrade pip &&\
 ## Step 4:
 # Expose port 80
 EXPOSE 80
-EXPOSE 8000
+# EXPOSE 8000
+# EXPOSE 8080
 
 ## Step 5:
 # Run app.py at container launch
