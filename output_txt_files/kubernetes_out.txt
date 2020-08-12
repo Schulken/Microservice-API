@@ -1,18 +1,17 @@
 <paste log output from Kubernetes-mediated prediction, here>
 
-1 d/api created 
-2 NAMESPACE     NAME                                     READY   STATUS    RESTARTS   AGE 
-3 default       msapi                                      1/1     Running   0          61s 
-6 docker        compose-7b7c5cbbcc-hjvz6                 1/1     Running   0          6d3h 
-7 docker        compose-api-dbbf7c5db-gc8j2              1/1     Running   0          6d3h 
-8 kube-system   coredns-5c98db65d4-g5ndz                 1/1     Running   1          6d3h 
-9 kube-system   coredns-5c98db65d4-wkflm                 1/1     Running   1          6d3h 
-10 kube-system   etcd-docker-desktop                      1/1     Running   0          6d3h 
-11 kube-system   kube-apiserver-docker-desktop            1/1     Running   0          6d3h 
-12 kube-system   kube-controller-manager-docker-desktop   1/1     Running   0          6d3h 
-13 kube-system   kube-proxy-55fw4                         1/1     Running   0          6d3h 
-14 kube-system   kube-scheduler-docker-desktop            1/1     Running   0          6d3h 
-15 kube-system   storage-provisioner                      1/1     Running   1          6d3h 
-16 Forwarding from 127.0.0.1:8000 -> 80 
-17 Forwarding from [::1]:8000 -> 80 
-18 Handling connection for 8000 
+1 NAMESPACE     NAME                                     READY   STATUS    RESTARTS   AGE 
+2 default       msapi                                      1/1     Running   0          61s 
+3 docker        compose-7b7c5cbbcc-hjvz6                 1/1     Running   0          6d3h 
+4 docker        compose-api-dbbf7c5db-gc8j2              1/1     Running   0          6d3h 
+5 kube-system   coredns-5c98db65d4-g5ndz                 1/1     Running   1          6d3h 
+6 kube-system   coredns-5c98db65d4-wkflm                 1/1     Running   1          6d3h 
+7 kube-system   etcd-docker-desktop                      1/1     Running   0          6d3h 
+8 kube-system   kube-apiserver-docker-desktop            1/1     Running   0          6d3h 
+9 kube-system   kube-controller-manager-docker-desktop   1/1     Running   0          6d3h 
+10 kube-system   kube-proxy-55fw4                         1/1     Running   0          6d3h 
+11 kube-system   kube-scheduler-docker-desktop            1/1     Running   0          6d3h 
+12 kube-system   storage-provisioner                      1/1     Running   1          6d3h 
+13 Forwarding from 127.0.0.1:8000 -> 80 
+14 Forwarding from [::1]:8000 -> 80 
+15 Handling connection for 8000 
