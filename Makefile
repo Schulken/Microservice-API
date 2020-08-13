@@ -26,7 +26,7 @@ validate-circleci:
 	
 run-circleci-local:
     # See https://circleci.com/docs/2.0/local-cli/#running-a-job
-	circleci local execute -c config.yml --job venv
+	circleci local execute -c config.yml --job install dependencies
 
 lint:
 	# See local hadolint install instructions:   https://github.com/hadolint/hadolint
