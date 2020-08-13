@@ -10,7 +10,7 @@ jobs:
       - image: python:3.7.3-stretch 
     working_directory: ~/repo 
     steps: 
-     - checkout 
+      - checkout 
         # Download and cache dependencies 
       - restore_cache: 
           keys: 
