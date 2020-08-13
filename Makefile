@@ -19,14 +19,6 @@ test:
 	# Additional, optional, tests could go here
 	#python -m pytest -vv --cov=myrepolib tests/*.py
 	#python -m pytest --nbval notebook.ipynb
-	
-validate-circleci:
-    # See https://circleci.com/docs/2.0/local-cli/#processing-a-config
-	circleci config process .circleci/config.yml
-	
-run-circleci-local:
-    # See https://circleci.com/docs/2.0/local-cli/#running-a-job
-	circleci local execute -c config.yml --job install dependencies
 
 lint:
 	# See local hadolint install instructions:   https://github.com/hadolint/hadolint
