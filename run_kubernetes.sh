@@ -9,9 +9,8 @@ dockerpath='schulken/msapi'
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run --image=$dockerpath msapi --port=80
+# kubectl run --image=$dockerpath msapi --port=80
 kubectl run msapi\
-    --generator=run-pod/v1\
     --image=$dockerpath\
     --port=80 --labels app=msapi
 

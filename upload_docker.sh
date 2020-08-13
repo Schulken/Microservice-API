@@ -11,7 +11,8 @@ dockerpath='schulken/msapi'
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-docker login docker.io -u schulken -p XXXX
+docker login docker.io -u schulken -p Christiane711##
+# docker login docker.io -u schulken --password-stdin
 
 # Step 3:
 # Push image to a docker repository
