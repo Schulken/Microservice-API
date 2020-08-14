@@ -1,6 +1,7 @@
 FROM python:3.7.3-stretch
 
-MAINTAINER Andre Schulke <andre.schulke@bertelsmann.de>
+LABEL maintainer="andre.schulke@bertelsmann.de"
+# MAINTAINER Andre Schulke <andre.schulke@bertelsmann.de>
 
 ## Step 1:
 # Create a Working Directory
