@@ -1,5 +1,7 @@
 https://app.circleci.com/pipelines/github/Schulken/Microservice-API/81/workflows/c48ae177-0b78-445d-81c9-bb25db21af93/jobs/81
 
+https://circleci.com/gh/mitriygor/udacity-devops-p4.svg?style=svg
+
 ## Project Overview
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
